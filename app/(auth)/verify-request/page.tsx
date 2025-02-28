@@ -5,7 +5,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-
 export default function VerifyRequestPage() {
   return (
     <div className="flex h-screen items-center justify-center">

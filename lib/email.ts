@@ -1,3 +1,4 @@
+// ../../../../Documents/Web Dev/Tutorials/authjs-2/lib/email.ts
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -5,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export const sendVerificationEmail = async (
   email: string,
   token: string,
-  baseUrl: string
+  baseUrl: string,
 ) => {
   const confirmLink = `${baseUrl}/verify-email?token=${token}`;
 

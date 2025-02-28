@@ -57,15 +57,15 @@ export default function VerifyEmailPage() {
             {isVerifying
               ? "Verifying your email"
               : isSuccess
-              ? "Email verified!"
-              : "Verification failed"}
+                ? "Email verified!"
+                : "Verification failed"}
           </CardTitle>
           <CardDescription>
             {isVerifying
               ? "Please wait while we verify your email address"
               : isSuccess
-              ? "Your email has been successfully verified"
-              : "We couldn't verify your email address"}
+                ? "Your email has been successfully verified"
+                : "We couldn't verify your email address"}
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
